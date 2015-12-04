@@ -1,24 +1,19 @@
 {
-  "name": "env-test",
+  "name": "mocha-test-env",
   "version": "1.0.0",
-  "description": "Sets NODE_ENV to 'test'",
+  "description": "Sets required environment variables for testing with mocha",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmtm/node-env-test.git"
+    "url": "https://github.com/programingjd/mocha-test-env.git"
   },
   "keywords": [
     "mocha",
+    "multi",
     "env",
-    "test"
+    "test",
+    "NODE_ENV"
   ],
-  "author": "Nicolas Chambrier <naholyr@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lmtm/node-env-test/issues"
-  },
-  "homepage": "https://github.com/lmtm/node-env-test"
+  "homepage": "https://github.com/programingjd/mocha-test-env"
 }
